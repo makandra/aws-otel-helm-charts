@@ -12,7 +12,7 @@ This repository contains a [Helm](https://helm.sh/) chart to provide easy to ope
 
 Once Helm is set up properly, add this repo as follows:
 ```console
-$ helm repo add aws-observability https://ctriegg-mak.github.io/aws-otel-helm-charts/
+$ helm repo add aws-observability https://crigertg.github.io/aws-otel-helm-charts/
 $ helm search repo aws-observability # Run this command in order to see the charts.
 ```
 
