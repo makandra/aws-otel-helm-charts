@@ -1,3 +1,5 @@
+This is a fork of [aws-observability/aws-otel-helm-charts](https://github.com/aws-observability/aws-otel-helm-charts) to deploy changes currently not merged in the upstram repository.
+
 # AWS Distro for OpenTelemetry Helm Charts
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -12,7 +14,7 @@ This repository contains a [Helm](https://helm.sh/) chart to provide easy to ope
 
 Once Helm is set up properly, add this repo as follows:
 ```console
-$ helm repo add aws-observability https://aws-observability.github.io/aws-otel-helm-charts
+$ helm repo add aws-observability https://makandra.github.io/aws-otel-helm-charts
 $ helm search repo aws-observability # Run this command in order to see the charts.
 ```
 
@@ -33,15 +35,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 ## License
 
 This project is licensed under the Apache 2.0 License.
-
-# ADOT Roadmap 
-
-You can track upcoming features and enhancements for ADOT on its [roadmap](https://github.com/orgs/aws-observability/projects/4).
-
-# Support
-
-Please note that as per policy, we're providing support via GitHub on a best effort basis. However, if you have AWS Enterprise Support you can create a ticket and we will provide direct support within the respective SLAs.
-
-# Maintainers
-
-- [Anthony Mirabella](https://github.com/Aneurysm9)

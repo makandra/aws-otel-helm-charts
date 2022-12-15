@@ -1,3 +1,5 @@
+This is a fork of [aws-observability/aws-otel-helm-charts](https://github.com/aws-observability/aws-otel-helm-charts) to deploy changes currently not merged in the upstram repository.
+
 # ADOT Helm chart for EKS on EC2 metrics and logs to Amazon CloudWatch Container Insights
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -73,7 +75,7 @@ The following prerequisites need to be set up in order to install this Helm char
 
 Once Helm is set up properly, add this repo as follows:
 ```console
-$ helm repo add [REPO_NAME] https://aws-observability.github.io/aws-otel-helm-charts
+$ helm repo add [REPO_NAME] https://makandra.github.io/aws-otel-helm-charts
 $ helm search repo [REPO_NAME] # Run this command in order to see the charts.
 ```
 
@@ -145,7 +147,3 @@ To learn more about how to use AWS Distro for OpenTelemetry to collect data for 
 ## License
 
 Apache 2.0 License.
-
-## Support Plan
-
-Our team plans to fully support the code we plan to release in this repo.
