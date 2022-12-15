@@ -1,3 +1,5 @@
+This is a fork of [aws-observability/aws-otel-helm-charts](https://github.com/aws-observability/aws-otel-helm-charts) to deploy changes currently not merged in the upstram repository.
+
 # AWS Distro for OpenTelemetry Helm Charts
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -11,7 +13,7 @@ Therefore, this Helm chart is useful for customers who use EKS on EC2 and want t
 
 Once Helm is set up properly, add this repo as follows:
 ```console
-$ helm repo add aws-observability https://aws-observability.github.io/aws-otel-helm-charts
+$ helm repo add aws-observability https://makandra.github.io/aws-otel-helm-charts
 $ helm search repo aws-observability # Run this command in order to see the charts.
 ```
 
