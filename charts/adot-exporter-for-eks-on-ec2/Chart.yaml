@@ -6,8 +6,8 @@ version: 0.11.0
 appVersion: 0.25.0
 kubeVersion: ">=1.19.0-0"
 maintainers:
-  - name: Bryan Aguilar
-    email: bryaag@amazon.com
-home: https://github.com/aws-observability/aws-otel-helm-charts/adot-exporter-for-eks-on-ec2
+  - name: Claus-Theodor Riegg
+    email: claus.riegg@makandra.de
+home: https://github.com/makandra/aws-otel-helm-charts/adot-exporter-for-eks-on-ec2
 sources:
-  - https://github.com/aws-observability/aws-otel-helm-charts/adot-exporter-for-eks-on-ec2
+  - https://github.com/makandra/aws-otel-helm-charts/adot-exporter-for-eks-on-ec2
