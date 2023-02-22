@@ -9,11 +9,6 @@ clusterName: ""
 additionalLabels: {}
   # app: adot
 
-serviceAccount:
-  create: true
-  annotations: {}
-  name: ""
-
 adotCollector:
   image:
     name: "aws-otel-collector"
